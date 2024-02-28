@@ -3,7 +3,6 @@ function Tour(PeopleCount, DayCount, CountryTaxes){
     this.DayCount = DayCount;
     this.CountryTaxes = CountryTaxes;
     this.CalcTripPrice = calcTripPrice(PeopleCount, DayCount, CountryTaxes);
-    this 
 }
 
 function calcTripPrice(PeopleCount, DayCount, CountryTaxes){
@@ -20,3 +19,4 @@ function(){
 
 var turkeyTour = new Tour(10, 5, 5);
 turkeyTour.Show();
+
