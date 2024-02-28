@@ -16,3 +16,5 @@ console.log(officer.phoneNumber);
 
 officer.adress = 'skisna 74/76';
 
+console.log('task2');
+console.log(officer.adress);
