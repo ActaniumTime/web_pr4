@@ -3,7 +3,6 @@ function MenuItem(title, url) {
     this.url = url;
 }
 
-
 MenuItem.prototype.show = function() {
     document.write("<ul>");
     for (var i = 0; i < arguments.length; i++) {
