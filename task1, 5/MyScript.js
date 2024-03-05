@@ -3,7 +3,9 @@ function Officer(name, department, phoneNumber, Salary){
     this.department = department;
     this.phoneNumber = phoneNumber;
     this.Salary = Salary;   
-    this.Show = ShowData(this.name, this.department, this.phoneNumber, this.Salary, this.adress);
+    this.Show =function(){
+        ShowData(this.name, this.department, this.phoneNumber, this.Salary, this.adress);
+    } 
 }
 
 var officer = new Officer('Tom', 'IT department', '+380684967544', '4700');
